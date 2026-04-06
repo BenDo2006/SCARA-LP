@@ -1,2 +1,21 @@
-# SCARA-LP
-Modular SCARA robotic platform integrating mechanical, electrical, and control systems for automation, testing, and system-level prototyping.
+# SCARA-LP: Modular SCARA Robotic Platform
+
+SCARA-LP is a modular SCARA robotic system designed and built to integrate mechanical, electrical, and control subsystems into a single functional platform. The system is developed for automation, testing, and iterative prototyping in robotics applications.
+
+The robot features a belt-driven 2-DOF arm with a Z-axis end effector, driven by DC motors with encoder feedback and controlled through a custom motor driver and microcontroller system. The platform emphasizes system integration, maintainability, and real-world debugging of electromechanical systems.
+
+## Key Features
+- Modular mechanical design for easy assembly and iteration  
+- Belt-driven transmission system optimized for low backlash and smooth motion  
+- Integrated electrical system including PCB, motor driver, and power distribution  
+- Encoder-based feedback for motion control and system validation  
+- Designed for troubleshooting, testing, and system-level integration  
+
+## Focus Areas
+- Electromechanical system integration  
+- Motion control and kinematics  
+- Debugging and iterative system improvement  
+- Documentation and reproducibility  
+
+## Project Scope
+This project includes CAD models, electrical schematics, control logic, and system documentation required to build and operate the SCARA platform.
