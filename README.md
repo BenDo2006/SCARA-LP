@@ -38,7 +38,7 @@ The platform emphasizes **open control architecture**, **maintainability**, and 
 - Precise planar positioning using SCARA kinematics  
 - Closed-loop feedback using encoder signals  
 - External microcontroller and motor driver integration  
-- Repeatable homing using limit switches  
+- Repeatable homing and safety using limit switches  
 - Smooth motion through optimized belt-driven transmission  
 
 ---
