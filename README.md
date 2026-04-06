@@ -26,10 +26,10 @@ The platform emphasizes **open control architecture**, **maintainability**, and 
 
 ## What Makes It Different
 
-- **Open control architecture** — direct access to motor inputs and encoder signals  
-- **Designed for debugging** — built to be tested, tuned, and repaired  
-- **System-level integration** — mechanical, electrical, and control subsystems unified  
-- **Modular design** — easy to assemble, modify, and iterate  
+- **Open control architecture** - direct access to motor inputs and encoder signals  
+- **Designed for debugging** - built to be tested, tuned, and repaired  
+- **System-level integration** - mechanical, electrical, and control subsystems unified  
+- **Modular design** - easy to assemble, modify, and iterate  
 
 ---
 
