@@ -19,3 +19,12 @@ The robot features a belt-driven 2-DOF arm with a Z-axis end effector, driven by
 
 ## Project Scope
 This project includes CAD models, electrical schematics, control logic, and system documentation required to build and operate the SCARA platform.
+
+## License
+
+This project is licensed under the SCARA Non-Commercial License (v1.0).
+
+- Free for personal, educational, and research use  
+- Commercial use is not permitted without explicit permission  
+
+For commercial licensing inquiries, contact: bendowork2006@gmail.com
