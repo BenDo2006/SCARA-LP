@@ -47,9 +47,11 @@ The SCARA-LP workspace is defined by link lengths and joint constraints, resulti
 <p align="center">
   <em>Figure 2: SCARA work envelope showing reachable workspace (white region) and kinematic dead zones (red regions) defined by link constraints.</em>
 </p>
-Interactive Tool:
-A Desmos-based visualization tool was developed to explore how design parameters affect the SCARA workspace:  
-[View Interactive Model](https://www.desmos.com/calculator/pglkq3bcid)
+
+### Interactive Visualization
+Explore how link lengths and joint limits affect the SCARA workspace:
+
+[View Interactive Model (Desmos)](https://www.desmos.com/calculator/pglkq3bcid)
 
 ## Results & Improvements
 
