@@ -62,12 +62,12 @@ Control implementation is intentionally left open, as the platform is designed t
 ## Maintenance & Troubleshooting
 | Symptom / Diagnosis | Likely Cause | Recommended Action |
 |-------------------|-------------|--------------------|
-| Delayed or inconsistent motion response | Debris buildup or improper belt tension | Clean belt and pulleys; re-tension belt to proper preload |
+| Delayed or inconsistent motion response | Debris buildup or improper belt tension | Clean belt and pulleys; re-tension belt to proper preload using idle pulley|
 | Jerky or uneven motion | Belt misalignment or uneven tension | Realign pulleys and ensure consistent belt tension across system |
 | Excessive backlash or lost motion | Belt slack or worn belt teeth | Re-tension or replace belt if wear is visible |
-| Increasing positional inaccuracy over time | Belt stretch, encoder misalignment, or mechanical looseness | Recalibrate system, inspect belt condition, and tighten all fasteners |
+| Increasing positional inaccuracy over time | Belt stretch, encoder misalignment, or mechanical looseness | Recalibrate system, inspect belt condition, and tighten all fasteners especially the T-pulleys |
 | Increased joint friction or stiffness | Bearing wear or lack of lubrication | Lubricate bearings or replace if worn |
-| Grinding or abnormal noise in joints | Bearing failure or contamination | Inspect and replace bearings; clean housing if contaminated |
+| Grinding or abnormal noise in joints | Bearing failure or contamination | Inspect and replace bearings; clean housing if contaminated. |
 | Motor rotates but arm does not move | Belt slip, loose pulley, or coupling failure | Inspect and secure pulleys, belts, and shaft couplings |
 | Sudden increase in backlash | Shaft coupling failure or worn shaft interface (e.g., D-shaft slipping) | Inspect motor shaft interface; replace or redesign coupling for proper torque transmission |
 | Inconsistent homing or limit detection | Faulty or misaligned limit switches | Realign or replace limit switches; verify electrical connections |
