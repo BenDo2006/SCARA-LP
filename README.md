@@ -11,8 +11,6 @@
 ## System Overview
 SCARA-LP is a modular 3-DOF SCARA robotic platform designed to integrate mechanical, electrical, and control subsystems into a single functional system. It consists of a belt-driven 2-DOF arm with a Z-axis end effector, powered by DC motors with encoder feedback and controlled through a custom motor driver and microcontroller architecture. The platform is built for automation, testing, and iterative prototyping, with a focus on precise positioning, repeatability, maintainability, and real-world electromechanical integration and debugging.
 
----
-
 ## Key Features
 - Modular mechanical design for easy assembly, maintenance, and iterative upgrades  
 - Open control architecture exposing motor control inputs and encoder signals for external microcontroller integration  
@@ -21,15 +19,11 @@ SCARA-LP is a modular 3-DOF SCARA robotic platform designed to integrate mechani
 - Integrated electromechanical system including custom PCB, motor driver, and sensor interfaces  
 - Designed for hands-on assembly, testing, troubleshooting, and repair of mechanical, electrical, and control components  
 
----
-
 ## Design Considerations
 - Belt drive selected over gear and chain systems to reduce backlash and enable smoother motion  
 - Motors positioned at the base to reduce inertia at distal links and improve dynamic response  
 - Limit switches integrated to enable repeatable homing and protect against overtravel  
 - System designed to expose control and feedback interfaces for external controller integration  
-
----
 
 ## System Specifications
 
@@ -39,12 +33,10 @@ SCARA-LP is a modular 3-DOF SCARA robotic platform designed to integrate mechani
 | Elbow Link Length (L2) | 130 | mm |
 | Max Reach | 272 | mm |
 | Min Reach | 12 | mm |
-| Joint 1 Range | 0–180 | ° |
+| Joint 1 Range | ±90 | ° |
 | Joint 2 Range | ±145 | ° |
 | Z-axis Stroke | 36.7 | mm |
 | Planar Work Area | 115,800 | mm² |
-
----
 
 ## Work Envelope
 The SCARA-LP workspace is defined by link lengths and joint constraints, resulting in a non-uniform reachable area with inner dead zones characteristic of SCARA kinematics.
@@ -58,26 +50,17 @@ The SCARA-LP workspace is defined by link lengths and joint constraints, resulti
 - Reduced end-effector inertia by relocating motors to the base, improving dynamic response and system stability  
 - Validated system behavior using MATLAB simulations and a custom Desmos-based visualization tool  
 
----
-
 ## Project Scope
 This repository provides the mechanical design, system architecture, and supporting documentation required to understand and reproduce the SCARA-LP platform. It includes CAD models, electrical schematics, and system-level documentation.
-
 Control implementation is intentionally left open, as the platform is designed to support external microcontroller and motor driver integration.
-
----
 
 ## Maintenance & Troubleshooting
 - Motion latency → Inspect and clean belt/pulley system  
 - Increased joint friction → Check bearing condition and apply lubrication  
 - Motor rotates but arm does not → Inspect transmission and coupling integrity  
 
----
-
 ## Documentation
 - [Mechanical Assembly Documentation (PDF)](link_here)
-
----
 
 ## License
 
