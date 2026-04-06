@@ -41,7 +41,12 @@ SCARA-LP is a modular 3-DOF SCARA robotic platform designed to integrate mechani
 ## Work Envelope
 The SCARA-LP workspace is defined by link lengths and joint constraints, resulting in a non-uniform reachable area with inner dead zones characteristic of SCARA kinematics.
 
-![Work Envelope](images/work_envelope.png)
+<p align="center">
+  <img src="https://github.com/BenDo2006/SCARA-LP/blob/337f11f11f19b03a7d8ee583dbd28d7765d897f3/SCARA_WorkEnvelope_Visual.png" width="600"/>
+</p>
+<p align="center">
+  <em>Figure 2: SCARA work envelope showing reachable workspace (white region) and kinematic dead zones (red regions) defined by link constraints.</em>
+</p>
 
 ## Results & Improvements
 
