@@ -1,6 +1,11 @@
 # SCARA-LP: Modular SCARA Robotic Platform
-![SCARA-LP Overview](https://github.com/BenDo2006/SCARA-LP/blob/20f5dd88dd745c8543defd34b2ca98524a1d10c3/SCARA_LP_CoverImage.png)
-*Figure 1: SCARA-LP modular robotic platform in assembled configuration.*
+<p align="center">
+  <img src="https://github.com/BenDo2006/SCARA-LP/blob/20f5dd88dd745c8543defd34b2ca98524a1d10c3/SCARA_LP_CoverImage.png" width="600"/>
+</p>
+
+<p align="center">
+  <em>Figure 1: SCARA-LP modular robotic platform in assembled configuration.</em>
+</p>
 
 SCARA-LP is a modular SCARA robotic system designed and built to integrate mechanical, electrical, and control subsystems into a single functional platform. The system is developed for automation, testing, and iterative prototyping in robotics applications.
 
