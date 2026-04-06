@@ -51,6 +51,13 @@ The SCARA-LP workspace is defined by link lengths and joint constraints, resulti
 
 ![Work Envelope](images/work_envelope.png)
 
+## Results & Improvements
+
+- Increased effective workspace by **85%** (536 mm² to 990 mm²) through kinematic optimization of link parameters  
+- Improved motion consistency and repeatability by diagnosing and correcting belt tension, pulley alignment, and mechanical vibration  
+- Reduced end-effector inertia by relocating motors to the base, improving dynamic response and system stability  
+- Validated system behavior using MATLAB simulations and a custom Desmos-based visualization tool  
+
 ---
 
 ## Project Scope
