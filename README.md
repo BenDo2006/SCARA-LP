@@ -20,10 +20,10 @@ SCARA-LP is a modular 3-DOF SCARA robotic platform designed to integrate mechani
 - Designed for hands-on assembly, testing, troubleshooting, and repair of mechanical, electrical, and control components  
 
 ## Design Considerations
-- Belt drive selected over gear and chain systems to reduce backlash and enable smoother motion  
-- Motors positioned at the base to reduce inertia at distal links and improve dynamic response  
-- Limit switches integrated to enable repeatable homing and protect against overtravel  
-- System designed to expose control and feedback interfaces for external controller integration  
+- Selected belt drive over gear and chain systems to balance low backlash, weight, and ease of assembly, accepting reduced stiffness due to belt compliance  
+- Relocated motors to the base to reduce inertia at distal links, improving dynamic response and reducing required torque  
+- Exposed motor control and encoder interfaces to enable external controller integration and user-defined control implementation  
+- Incorporated limit switches to ensure repeatable homing and protect the system from mechanical overtravel  
 
 ## System Specifications
 
