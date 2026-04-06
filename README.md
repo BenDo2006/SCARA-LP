@@ -59,10 +59,11 @@ The SCARA-LP workspace is defined by link lengths and joint constraints, resulti
 This repository provides the mechanical design, system architecture, and supporting documentation required to understand and reproduce the SCARA-LP platform. It includes CAD models, electrical schematics, and system-level documentation.
 Control implementation is intentionally left open, as the platform is designed to support external microcontroller and motor driver integration.
 
-## Maintenance & Troubleshooting
-- Motion latency → Inspect and clean belt/pulley system  
-- Increased joint friction → Check bearing condition and apply lubrication  
-- Motor rotates but arm does not → Inspect transmission and coupling integrity  
+| Symptom / Diagnosis | Likely Cause | Recommended Action |
+|-------------------|-------------|--------------------|
+| Motion latency or delayed response | Debris buildup in belt/pulley interface | Clean belt and pulleys; verify proper belt tension |
+| Increased joint friction or stiffness | Bearing wear or lack of lubrication | Re-lubricate bearings or replace if worn |
+| Motor rotates but arm does not move | Belt slippage or coupling failure | Inspect transmission system and secure or replace components |
 
 ## Documentation
 - [Mechanical Assembly Documentation (PDF)](link_here)
