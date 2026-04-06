@@ -59,11 +59,18 @@ The SCARA-LP workspace is defined by link lengths and joint constraints, resulti
 This repository provides the mechanical design, system architecture, and supporting documentation required to understand and reproduce the SCARA-LP platform. It includes CAD models, electrical schematics, and system-level documentation.
 Control implementation is intentionally left open, as the platform is designed to support external microcontroller and motor driver integration.
 
+## Maintenance & Troubleshooting
 | Symptom / Diagnosis | Likely Cause | Recommended Action |
 |-------------------|-------------|--------------------|
-| Motion latency or delayed response | Debris buildup in belt/pulley interface | Clean belt and pulleys; verify proper belt tension |
-| Increased joint friction or stiffness | Bearing wear or lack of lubrication | Re-lubricate bearings or replace if worn |
-| Motor rotates but arm does not move | Belt slippage or coupling failure | Inspect transmission system and secure or replace components |
+| Delayed or inconsistent motion response | Debris buildup or improper belt tension | Clean belt and pulleys; re-tension belt to proper preload |
+| Jerky or uneven motion | Belt misalignment or uneven tension | Realign pulleys and ensure consistent belt tension across system |
+| Excessive backlash or lost motion | Belt slack or worn belt teeth | Re-tension or replace belt if wear is visible |
+| Increasing positional inaccuracy over time | Belt stretch, encoder misalignment, or mechanical looseness | Recalibrate system, inspect belt condition, and tighten all fasteners |
+| Increased joint friction or stiffness | Bearing wear or lack of lubrication | Lubricate bearings or replace if worn |
+| Grinding or abnormal noise in joints | Bearing failure or contamination | Inspect and replace bearings; clean housing if contaminated |
+| Motor rotates but arm does not move | Belt slip, loose pulley, or coupling failure | Inspect and secure pulleys, belts, and shaft couplings |
+| Sudden increase in backlash | Shaft coupling failure or worn shaft interface (e.g., D-shaft slipping) | Inspect motor shaft interface; replace or redesign coupling for proper torque transmission |
+| Inconsistent homing or limit detection | Faulty or misaligned limit switches | Realign or replace limit switches; verify electrical connections |
 
 ## Documentation
 - [Mechanical Assembly Documentation (PDF)](link_here)
