@@ -12,17 +12,19 @@ SCARA-LP is a modular SCARA robotic system designed and built to integrate mecha
 The robot features a belt-driven 2-DOF arm with a Z-axis end effector, driven by DC motors with encoder feedback and controlled through a custom motor driver and microcontroller system. The platform emphasizes system integration, maintainability, and real-world debugging of electromechanical systems.
 
 ## Key Features
-- Modular mechanical design for easy assembly and iteration  
-- Belt-driven transmission system optimized for low backlash and smooth motion  
-- Integrated electrical system including PCB, motor driver, and power distribution  
-- Encoder-based feedback for motion control and system validation  
-- Designed for troubleshooting, testing, and system-level integration  
+- Modular mechanical design for easy assembly, maintenance, and iterative upgrades  
+- Belt-driven transmission system optimized for low backlash, smooth motion, and consistent repeatability  
+- Open control architecture with direct access to motor control signals and encoder channels for external microcontroller integration  
+- Encoder-based feedback system enabling closed-loop motion control and improved positioning accuracy  
+- Limit switch integration for homing, safety constraints, and system protection  
+- Integrated electromechanical system including custom PCB, motor driver, and sensor interfaces  
+- Designed for hands-on assembly, testing, troubleshooting, and repair of mechanical, electrical, and control components  
 
 ## Focus Areas
-- Electromechanical system integration  
-- Motion control and kinematics  
-- Debugging and iterative system improvement  
-- Documentation and reproducibility  
+- Electromechanical system integration across mechanical, electrical, and control domains  
+- Motion control, kinematics, and feedback systems  
+- Troubleshooting, root cause analysis, and system repair  
+- Technical documentation, assembly procedures, and reproducibility  
 
 ## Project Scope
 This project includes CAD models, electrical schematics, control logic, and system documentation required to build and operate the SCARA platform.
