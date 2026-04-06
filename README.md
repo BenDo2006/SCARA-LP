@@ -61,7 +61,7 @@ The platform emphasizes **open control architecture**, **maintainability**, and 
   Identified loss of torque transmission due to slipping D-shaft interface. Redesigned coupling interface to improve engagement and reduce backlash.
 
 - **Vibration during motion:**  
-  Caused by belt compliance and mass distribution. Mitigated by relocating motors to the base and improving structural stability.
+  Caused by belt compliance and mass distribution. Mitigated by relocating motors to the base and improving structural stability and reducing rotational inertia.
 
 - **Mechanical vs control ambiguity:**  
   Distinguished between control delay and mechanical response issues by isolating encoder feedback and physical system behavior during testing.
