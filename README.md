@@ -38,7 +38,7 @@ The platform emphasizes **open control architecture**, **maintainability**, and 
 - Blue: Control
 - Orange: Actuation / Drive
 - Green: Mechanical Structure
-- Purple: Sensing / Feedback
+- Purple: Sensors
 - Yellow: Power
 
 The system is structured around an open architecture where encoder feedback and control signals interface directly with the microcontroller, which commands the motor driver to actuate the system. Power is distributed across all subsystems, while limit switches provide safety and homing feedback.
