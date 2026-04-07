@@ -95,7 +95,7 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 
 <p align="center">
   <a href="docs/BOM_SCARA_LP.xlsx">
-    <img src="docs/BOM_preview.png" width="900"/>
+    <img src="https://github.com/BenDo2006/SCARA-LP/blob/cf61de016bf7747d4a6c3ada60fc84cfc83fd25a/BOM_Preview.png" width="1000"/>
   </a>
 </p>
 
