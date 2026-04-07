@@ -116,7 +116,7 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 - GT2 timing belts and pulleys for power transmission  
 - DC motors with encoder feedback  
 - Custom PCB for motor control and signal routing  
-- Structural components (3D printed and machined parts)  
+- Structural components (3D printed and bought parts)  
 
 ---
 
