@@ -101,9 +101,15 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 
 ### BOM Preview
 
-[![BOM Preview](https://github.com/BenDo2006/SCARA-LP/blob/19b4cb71361ba0c12dd100bed06d071f8d326775/BOM_Preview.png)](https://bcit365-my.sharepoint.com/:x:/r/personal/bdo9_my_bcit_ca/Documents/SCARA_MK_I_BOM.xlsx?d=w0ce96e64e2ec4a02ad57fd1eef0aa47b&csf=1&web=1&e=IQwKGl&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0)
+<p align="center">
+  <a href="https://bcit365-my.sharepoint.com/:x:/r/personal/bdo9_my_bcit_ca/Documents/SCARA_MK_I_BOM.xlsx?d=w0ce96e64e2ec4a02ad57fd1eef0aa47b&csf=1&web=1&e=IQwKGl&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0">
+    <img src="https://github.com/BenDo2006/SCARA-LP/blob/19b4cb71361ba0c12dd100bed06d071f8d326775/BOM_Preview.png?raw=true" width="900"/>
+  </a>
+</p>
 
-*Click the image to view the full BOM (Excel).*
+<p align="center">
+  <em>Click to view full Bill of Materials (Excel)</em>
+</p>
 
 ### Key Components
 - 608ZZ bearings for joint rotation  
