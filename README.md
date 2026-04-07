@@ -128,7 +128,7 @@ Explore parameterized SCARA workspace behavior:
 ## Electrical System
 
 <p align="center">
-  <img src="images/pcb_render.png" width="500"/>
+  <img src="https://github.com/BenDo2006/SCARA-LP/blob/c85d4bc51b07f15943d7265d01a575630cb0f7d4/Simplified_PCB_Render.png" width="500"/>
 </p>
 
 <p align="center">
