@@ -15,7 +15,7 @@
 ## Overview
 
 SCARA-LP is a modular 3-DOF robotic platform developed as a complete electromechanical system for automation, testing, and iterative prototyping.
-  > 🚧 This system is actively under development, with ongoing work focused on control refinement, precision improvement, and design optimization (expected completion: May 2026).
+  > 🚧 In Progress (expected completion: May 2026).
 
 The system uses a belt-driven 2-DOF arm with a Z-axis end effector, powered by DC motors with encoder feedback and controlled through a custom motor driver and microcontroller architecture.
 
