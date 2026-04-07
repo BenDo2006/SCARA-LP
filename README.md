@@ -31,8 +31,15 @@ The platform emphasizes **open control architecture**, **maintainability**, and 
 </p>
 
 <p align="center">
-  <em>Figure 2: System-level block diagram illustrating control, sensing, and actuation flow within the SCARA-LP platform.</em>
+  <em>Figure 2: System-level block diagram illustrating control, sensing, actuation, and power flow within the SCARA-LP platform.</em>
 </p>
+
+**Legend:**
+- Blue: Control
+- Orange: Actuation / Drive
+- Green: Mechanical Structure
+- Purple: Sensing / Feedback
+- Yellow: Power
 
 The system is structured around an open architecture where encoder feedback and control signals interface directly with the microcontroller, which commands the motor driver to actuate the system. Power is distributed across all subsystems, while limit switches provide safety and homing feedback.
 
