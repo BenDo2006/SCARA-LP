@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <em>SCARA-LP modular robotic platform in assembled configuration.</em>
+  <em>Figure 1: SCARA-LP modular robotic platform in assembled configuration.</em>
 </p>
 
 ---
@@ -32,7 +32,7 @@ The design emphasizes **debuggability, maintainability, and open control access*
 </p>
 
 <p align="center">
-  <em>System-level architecture showing control, sensing, actuation, and power flow.</em>
+  <em>Figure 2: System-level architecture showing control, sensing, actuation, and power flow.</em>
 </p>
 
 The architecture enables direct access to encoder feedback and motor control signals, allowing precise debugging and flexible control integration. Limit switches provide reliable homing and safety, while power is distributed across all subsystems.
@@ -101,7 +101,7 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 </p>
 
 <p align="center">
-  <em>Click on the BOM Preview above to access the spreadsheet</em>
+  <em>Table 1: SCARA BOM; Click on the table Preview above to access the spreadsheet</em>
 </p>
 
 ---
@@ -127,7 +127,7 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 </p>
 
 <p align="center">
-  <em>Custom PCB for motor control, encoder input, and power distribution.</em>
+  <em>Figure 3: Custom PCB for motor control, encoder input, and power distribution.</em>
 </p>
 
 The PCB integrates motor driver interfaces, encoder inputs, limit switch connections, and power routing. The architecture is modular, allowing external microcontrollers and drivers to be used for flexible control development.
@@ -142,8 +142,8 @@ This repository includes mechanical design, system architecture, and documentati
 
 ## Documentation
 
-- [Mechanical Assembly Documentation (PDF)](link_here)  
-- [PCB Design & Schematic (PDF)](link_here)
+- [Mechanical Assembly Documentation (PDF)]()  
+- [PCB Design & Schematic (PDF)]()
 
 ---
 
