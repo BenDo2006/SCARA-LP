@@ -27,7 +27,7 @@ The platform emphasizes **open control architecture**, **maintainability**, and 
 ## System Architecture
 
 <p align="center">
-  <img src="images/system_block_diagram.png" width="600"/>
+  <img src="https://github.com/BenDo2006/SCARA-LP/blob/c1aff60bb12e8d9277f278d14365f4c2e975072c/System_Architecture_SCARA.drawio.png" width="600"/>
 </p>
 
 <p align="center">
