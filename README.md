@@ -108,13 +108,18 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 
 ## Work Envelope
 
+The SCARA-LP workspace is defined by link lengths and joint constraints, resulting in a non-uniform reachable area with inner dead zones characteristic of SCARA kinematics.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/BenDo2006/SCARA-LP/337f11f11f19b03a7d8ee583dbd28d7765d897f3/SCARA_WorkEnvelope_Visual.png" width="600"/>
 </p>
 
 <p align="center">
-  <em>Reachable workspace (white) and kinematic dead zones (red).</em>
+  <em>Figure 2: SCARA work envelope showing reachable workspace (white) and kinematic dead zones (red) defined by link constraints.</em>
 </p>
+
+### Interactive Visualization
+Explore parameterized SCARA workspace behavior:
 
 [View Interactive Model (Desmos)](https://www.desmos.com/calculator/pglkq3bcid)
 
