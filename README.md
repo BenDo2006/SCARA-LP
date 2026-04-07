@@ -1,8 +1,8 @@
 # SCARA-LP: Modular SCARA Robotic Platform
 
-🚀 Designed and built a modular SCARA robotic arm integrating mechanical, electrical, and control systems  
-📈 Increased reachable workspace by **85% (536 → 990 mm²)**  
-🔧 Diagnosed and resolved real mechanical issues including belt tension, misalignment, backlash, and vibration  
+Designed and built a modular SCARA robotic arm integrating mechanical, electrical, and control systems  
+Increased reachable workspace by **85% (536 to 990 mm²)**  
+Diagnosed and resolved real mechanical issues including belt tension, misalignment, backlash, and vibration  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/BenDo2006/SCARA-LP/20f5dd88dd745c8543defd34b2ca98524a1d10c3/SCARA_LP_CoverImage.png" width="600"/>
