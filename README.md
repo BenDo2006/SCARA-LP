@@ -94,21 +94,14 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 ### BOM Preview
 
 <p align="center">
-  <a href="docs/BOM_SCARA_LP.xlsx">
+  <a href="https://bcit365-my.sharepoint.com/:x:/r/personal/bdo9_my_bcit_ca/Documents/SCARA_MK_I_BOM.xlsx?d=w0ce96e64e2ec4a02ad57fd1eef0aa47b&csf=1&web=1&e=IQwKGl&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0">
     <img src="https://github.com/BenDo2006/SCARA-LP/blob/dd62c8d3cb93007295c1c66b4025952f761ef681/BOM_Preview.png" width="1000"/>
   </a>
 </p>
 
 <p align="center">
-  <em>Preview of key components — click to view full BOM (Excel)</em>
+  <em>Click on the BOM Preview above to access the spreadsheet</em>
 </p>
-
-### Key Components
-- 608ZZ bearings for joint rotation  
-- GT2 timing belts and pulleys for power transmission  
-- DC motors with encoder feedback  
-- Custom PCB for motor control and signal routing  
-- Structural components (3D printed and machined parts)  
 
 ---
 
