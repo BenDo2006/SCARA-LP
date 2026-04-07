@@ -127,8 +127,10 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 </p>
 
 <p align="center">
-  <em>Figure 3: Custom PCB for motor control, encoder input, and power distribution.</em>
+  <em>Figure 3: Simplified PCB render for motor control, encoder input, and power distribution.</em>
 </p>
+
+The PCB was designed by **Alex Dawson**, with system integration and interfacing handled as part of this project.
 
 The PCB integrates motor driver interfaces, encoder inputs, limit switch connections, and power routing. The architecture is modular, allowing external microcontrollers and drivers to be used for flexible control development.
 
