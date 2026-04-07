@@ -24,6 +24,20 @@ The platform emphasizes **open control architecture**, **maintainability**, and 
 
 ---
 
+## System Architecture
+
+<p align="center">
+  <img src="images/system_block_diagram.png" width="600"/>
+</p>
+
+<p align="center">
+  <em>Figure 2: System-level block diagram illustrating control, sensing, and actuation flow within the SCARA-LP platform.</em>
+</p>
+
+The system is structured around an open architecture where encoder feedback and control signals interface directly with the microcontroller, which commands the motor driver to actuate the system. Power is distributed across all subsystems, while limit switches provide safety and homing feedback.
+
+---
+
 ## What Makes It Different
 
 - **Open control architecture** — direct access to motor inputs and encoder signals  
@@ -101,13 +115,30 @@ The SCARA-LP workspace is defined by link lengths and joint constraints, resulti
 </p>
 
 <p align="center">
-  <em>Figure 2: SCARA work envelope showing reachable workspace (white) and kinematic dead zones (red) defined by link constraints.</em>
+  <em>Figure 3: SCARA work envelope showing reachable workspace (white) and kinematic dead zones (red) defined by link constraints.</em>
 </p>
 
 ### Interactive Visualization
 Explore parameterized SCARA workspace behavior:
 
 [View Interactive Model (Desmos)](https://www.desmos.com/calculator/pglkq3bcid)
+
+---
+
+## Electrical System
+
+<p align="center">
+  <img src="images/pcb_render.png" width="500"/>
+</p>
+
+<p align="center">
+  <em>Figure 4: Custom PCB showing key components including motor driver interface, encoder inputs, limit switch connections, and power routing.</em>
+</p>
+
+The custom PCB consolidates motor control, encoder feedback, limit switch inputs, and power routing into a centralized interface, reducing wiring complexity and improving system integration.
+
+### Electrical Documentation
+- [PCB Design & Schematic (PDF)](link_here)
 
 ---
 
