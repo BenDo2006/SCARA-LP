@@ -128,14 +128,18 @@ Explore parameterized SCARA workspace behavior:
 ## Electrical System
 
 <p align="center">
-  <img src="https://github.com/BenDo2006/SCARA-LP/blob/c85d4bc51b07f15943d7265d01a575630cb0f7d4/Simplified_PCB_Render.png" width="500"/>
+  <img src="https://raw.githubusercontent.com/BenDo2006/SCARA-LP/c85d4bc51b07f15943d7265d01a575630cb0f7d4/Simplified_PCB_Render.png" width="500"/>
 </p>
 
 <p align="center">
   <em>Figure 4: Custom PCB showing key components including motor driver interface, encoder inputs, limit switch connections, and power routing.</em>
 </p>
 
-The custom PCB consolidates motor control, encoder feedback, limit switch inputs, and power routing into a centralized interface, reducing wiring complexity and improving system integration.
+The PCB was designed by **Alex Dawson**, with system integration and interfacing handled as part of this project.
+
+The custom PCB serves as a centralized interface for motor control, sensor input, and power distribution. It integrates an H-bridge motor driver for actuator control, encoder and limit switch inputs for feedback and safety, and onboard protection via a fuse.
+
+The architecture is intentionally designed to be **open and modular**, exposing motor control and feedback signals to allow users to interface their own external microcontrollers and motor drivers. The microcontroller mount is positioned centrally to simplify wiring and improve system organization.
 
 ### Electrical Documentation
 - [PCB Design & Schematic (PDF)](link_here)
