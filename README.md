@@ -12,8 +12,6 @@
   <em>Figure 1: SCARA-LP modular robotic platform in assembled configuration.</em>
 </p>
 
----
-
 ## Overview
 
 SCARA-LP is a modular 3-DOF robotic platform developed as a complete electromechanical system for automation, testing, and iterative prototyping.
