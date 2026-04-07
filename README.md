@@ -101,7 +101,7 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 
 ### BOM Preview
 
-[![BOM Preview](https://github.com/BenDo2006/SCARA-LP/blob/2ab07ddd7d6729162594d7d4af4f78bc04ef56dc/BOM_Preview.png)](https://bcit365-my.sharepoint.com/:x:/r/personal/bdo9_my_bcit_ca/Documents/SCARA_MK_I_BOM.xlsx?d=w0ce96e64e2ec4a02ad57fd1eef0aa47b&csf=1&web=1&e=IQwKGl&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0)
+[![BOM Preview](https://github.com/BenDo2006/SCARA-LP/blob/19b4cb71361ba0c12dd100bed06d071f8d326775/BOM_Preview.png)](https://bcit365-my.sharepoint.com/:x:/r/personal/bdo9_my_bcit_ca/Documents/SCARA_MK_I_BOM.xlsx?d=w0ce96e64e2ec4a02ad57fd1eef0aa47b&csf=1&web=1&e=IQwKGl&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0)
 
 *Click the image to view the full BOM (Excel).*
 
