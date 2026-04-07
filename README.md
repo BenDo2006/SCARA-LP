@@ -1,7 +1,7 @@
 # SCARA-LP: Modular SCARA Robotic Platform
 
 Designed and built a modular SCARA robotic arm integrating mechanical, electrical, and control systems  
-Increased reachable workspace by **85% (536 to 990 mm²)**  
+Increased reachable workspace by **85% (536 to 990 mm²)** through kinematic optimization  
 Diagnosed and resolved real mechanical issues including belt tension, misalignment, backlash, and vibration  
 
 <p align="center">
@@ -14,21 +14,13 @@ Diagnosed and resolved real mechanical issues including belt tension, misalignme
 
 ---
 
-## What This Project Demonstrates
-- Electromechanical system integration  
-- Mechanical troubleshooting and root cause analysis  
-- System-level debugging and performance optimization  
-- Hands-on assembly, testing, and validation  
-
----
-
 ## Overview
 
-SCARA-LP is a modular 3-DOF SCARA robotic platform built as a complete electromechanical system for automation, testing, and iterative prototyping.
+SCARA-LP is a modular 3-DOF robotic platform developed as a complete electromechanical system for automation, testing, and iterative prototyping.
 
 The system uses a belt-driven 2-DOF arm with a Z-axis end effector, powered by DC motors with encoder feedback and controlled through a custom motor driver and microcontroller architecture.
 
-The design emphasizes **debuggability, maintainability, and open control access**, allowing direct interaction with motor control signals and encoder feedback for external controller integration.
+The design emphasizes **debuggability, maintainability, and open control access**, enabling direct interaction with motor control signals and encoder feedback for system tuning and external controller integration.
 
 ---
 
@@ -50,8 +42,8 @@ The architecture enables direct access to encoder feedback and motor control sig
 
 - Increased effective workspace by **85%** through kinematic optimization  
 - Diagnosed and resolved mechanical issues including belt tension, misalignment, and backlash  
-- Improved system stability by optimizing mass distribution and motor placement  
-- Validated system behavior using MATLAB simulations and a custom Desmos visualization tool  
+- Improved system stability through mechanical redesign and mass distribution  
+- Validated system behavior through simulation and physical testing  
 
 ---
 
@@ -75,7 +67,7 @@ The architecture enables direct access to encoder feedback and motor control sig
 
 - **Belt drive vs gear/chain:** chosen for low backlash and ease of assembly, accepting reduced stiffness  
 - **Motor placement at base:** reduces inertia and improves dynamic response  
-- **Open signal access:** allows external controller integration and debugging  
+- **Open signal access:** enables external controller integration and real-time debugging  
 - **Limit switches:** ensure reliable homing and mechanical safety  
 
 ---
@@ -102,13 +94,13 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 ### BOM Preview
 
 <p align="center">
-  <a href="https://bcit365-my.sharepoint.com/:x:/r/personal/bdo9_my_bcit_ca/Documents/SCARA_MK_I_BOM.xlsx?d=w0ce96e64e2ec4a02ad57fd1eef0aa47b&csf=1&web=1&e=IQwKGl&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0">
-    <img src="https://github.com/BenDo2006/SCARA-LP/blob/19b4cb71361ba0c12dd100bed06d071f8d326775/BOM_Preview.png?raw=true" width="900"/>
+  <a href="docs/BOM_SCARA_LP.xlsx">
+    <img src="docs/BOM_preview.png" width="900"/>
   </a>
 </p>
 
 <p align="center">
-  <em>Click to view full Bill of Materials (Excel)</em>
+  <em>Preview of key components — click to view full BOM (Excel)</em>
 </p>
 
 ### Key Components
@@ -116,7 +108,7 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
 - GT2 timing belts and pulleys for power transmission  
 - DC motors with encoder feedback  
 - Custom PCB for motor control and signal routing  
-- Structural components (3D printed and bought parts)  
+- Structural components (3D printed and machined parts)  
 
 ---
 
@@ -144,7 +136,7 @@ A structured Bill of Materials was developed to support assembly, manufacturing,
   <em>Custom PCB for motor control, encoder input, and power distribution.</em>
 </p>
 
-The PCB integrates motor driver interfaces, encoder inputs, limit switch connections, and power routing. The architecture is intentionally modular, allowing external microcontrollers and drivers to be used for flexible control development.
+The PCB integrates motor driver interfaces, encoder inputs, limit switch connections, and power routing. The architecture is modular, allowing external microcontrollers and drivers to be used for flexible control development.
 
 ---
 
