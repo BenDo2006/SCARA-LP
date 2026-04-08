@@ -147,6 +147,7 @@ This repository includes mechanical design, system architecture, and documentati
 
 ## Documentation
 - [Bill Of Materials Spreadsheet (BOM) (xlss)](https://bcit365-my.sharepoint.com/:x:/r/personal/bdo9_my_bcit_ca/Documents/SCARA_MK_I_BOM.xlsx?d=w0ce96e64e2ec4a02ad57fd1eef0aa47b&csf=1&web=1&e=IQwKGl&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0)  
+- [CAD Files](https://drive.google.com/drive/folders/1HSVn8m453VaMzPE7Dymyu7wPpBPLBVtB?usp=sharing)
 - [Mechanical Assembly Documentation (PDF)]()  
 - [PCB Design & Schematic (PDF)]()
 
